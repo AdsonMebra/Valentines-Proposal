@@ -2,7 +2,7 @@ function nextPage() {
     window.location.href = "yes.html";
 }
 
-function nextPage() {
+function nextPage2() {
     window.location.href = "book.html";
 }
 
