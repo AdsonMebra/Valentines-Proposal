@@ -2,6 +2,10 @@ function nextPage() {
     window.location.href = "yes.html";
 }
 
+function nextPage() {
+    window.location.href = "book.html";
+}
+
 function moveButton() {
     var x = Math.random() * (window.innerWidth - document.getElementById("noButton").offsetWidth);
     var y = Math.random() * (window.innerHeight - document.getElementById("noButton").offsetHeight);
