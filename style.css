@@ -3,28 +3,27 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
-  background: linear-gradient(rgb(0, 249, 236), rgb(71, 150, 229));
+  background: linear-gradient(rgb(255, 192, 203), rgb(255, 105, 180));
 }
 
-#noButton {
+#noButton, #yesButton, #fixDateButton {
   position: absolute;
-  margin-left: 150px;
-  transition: 0.5s;
   margin-top: 30px;
 }
 
 #yesButton {
-  position: absolute;
   margin-right: 150px;
-  margin-top: 30px;
+}
+
+#noButton {
+  margin-left: 150px;
+  transition: 0.5s;
 }
 
 .header_text {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-size: 50px;
   font-weight: bold;
-
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -32,7 +31,7 @@ body {
 }
 
 .text {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: white;
@@ -51,7 +50,7 @@ body {
 }
 
 .btn {
-  background-color: #017cff;
+  background-color: #ff69b4;
   color: white;
   font-weight: 600;
   padding: 15px 32px;
@@ -68,7 +67,7 @@ body {
 
 .btn:hover {
   background-color: #ffffff;
-  color: #017cff;
+  color: #ff69b4;
 }
 
 .gif_container {
@@ -76,10 +75,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 p {
   color: white;
   margin-left: 50%;
 }
+
 p a {
   color: rgb(255, 255, 255);
   font-size: 20px;
