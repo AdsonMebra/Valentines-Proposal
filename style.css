@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(rgb(255, 192, 203), rgb(255, 105, 180));
+  background: linear-gradient(rgb(255, 218, 185), rgb(255, 182, 193));
 }
 
 #noButton, #yesButton, #fixDateButton {
@@ -21,20 +21,20 @@ body {
 }
 
 .header_text {
-  font-family: "Nunito", sans-serif;
+  font-family: "Cursive", sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #800000; /* Dark Red */
 }
 
 .text {
-  font-family: "Nunito", sans-serif;
+  font-family: "Cursive", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  color: white;
+  color: #800000; /* Dark Red */
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -50,7 +50,7 @@ body {
 }
 
 .btn {
-  background-color: #ff69b4;
+  background-color: #ff1493; /* Deep Pink */
   color: white;
   font-weight: 600;
   padding: 15px 32px;
@@ -62,12 +62,12 @@ body {
   border: none;
   border-radius: 12px;
   transition: background-color 0.3s ease;
-  box-shadow: 0 3px 3px black;
+  box-shadow: 0 3px 3px #8b008b; /* Dark Magenta */
 }
 
 .btn:hover {
   background-color: #ffffff;
-  color: #ff69b4;
+  color: #ff1493; /* Deep Pink */
 }
 
 .gif_container {
@@ -77,12 +77,12 @@ body {
 }
 
 p {
-  color: white;
+  color: #800000; /* Dark Red */
   margin-left: 50%;
 }
 
 p a {
-  color: rgb(255, 255, 255);
+  color: #800000; /* Dark Red */
   font-size: 20px;
   font-weight: 600;
   opacity: 0.25;
