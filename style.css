@@ -81,3 +81,7 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.no.moving {
+  pointer-events: none;
+}
