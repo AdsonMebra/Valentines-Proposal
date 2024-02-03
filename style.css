@@ -3,81 +3,86 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(rgb(252, 186, 186), rgb(230, 119, 149));
-  font-family: "Nunito", sans-serif;
-  margin: 0;
-  overflow: hidden;
+
+  background: linear-gradient(rgb(0, 249, 236), rgb(71, 150, 229));
 }
 
-.container {
-  text-align: center;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  max-width: 600px;
-  width: 90%;
+#noButton {
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.5s;
+  margin-top: 30px;
 }
 
-.header {
-  background: #ff4d6b;
-  padding: 20px;
+#yesButton {
+  position: absolute;
+  margin-right: 150px;
+  margin-top: 30px;
 }
 
 .header_text {
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
+  font-family: "Nunito";
+  font-size: 50px;
   font-weight: bold;
+
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #ffffff;
-  margin: 0;
 }
 
-.gif_container {
-  padding: 20px;
+.text {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .btn {
-  font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  background-color: #017cff;
+  color: white;
+  font-weight: 600;
   padding: 15px 32px;
   text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
   border: none;
   border-radius: 12px;
   transition: background-color 0.3s ease;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-  width: 200px;
-}
-
-.yes {
-  background-color: #4caf50;
-  color: white;
-}
-
-.no {
-  background-color: #e74c3c;
-  color: white;
-}
-
-.date {
-  background-color: #ff4d6b;
-  color: white;
+  box-shadow: 0 3px 3px black;
 }
 
 .btn:hover {
   background-color: #ffffff;
-  color: #ff4d6b;
+  color: #017cff;
 }
 
-.gif_container img {
-  max-width: 100%;
-  height: auto;
+.gif_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: white;
+  margin-left: 50%;
+}
+p a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.25;
 }
