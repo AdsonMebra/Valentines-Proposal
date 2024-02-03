@@ -3,47 +3,44 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(rgb(255, 191, 219), rgb(214, 88, 166));
+  background: linear-gradient(rgb(252, 186, 186), rgb(230, 119, 149));
   font-family: "Nunito", sans-serif;
   margin: 0;
+  overflow: hidden;
 }
 
 .container {
   text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 600px;
+  width: 90%;
 }
 
-#noButton {
-  position: absolute;
-  transition: 0.5s;
-  margin-top: 30px;
-}
-
-#yesButton {
-  position: absolute;
-  margin-top: 30px;
-}
-
-#dateButton {
-  background-color: #ff4d6b;
+.header {
+  background: #ff4d6b;
+  padding: 20px;
 }
 
 .header_text {
-  font-family: "Parisienne", cursive;
-  font-size: 50px;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: bold;
   color: #ffffff;
+  margin: 0;
+}
+
+.gif_container {
+  padding: 20px;
 }
 
 .buttons {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 20px;
+  padding: 20px;
 }
 
 .btn {
@@ -55,13 +52,14 @@ body {
   border: none;
   border-radius: 12px;
   transition: background-color 0.3s ease;
-  box-shadow: 0 3px 3px black;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 200px;
 }
 
 .yes {
   background-color: #4caf50;
   color: white;
-  margin-right: 10px;
 }
 
 .no {
@@ -76,11 +74,10 @@ body {
 
 .btn:hover {
   background-color: #ffffff;
-  color: #017cff;
+  color: #ff4d6b;
 }
 
-.gif_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.gif_container img {
+  max-width: 100%;
+  height: auto;
 }
