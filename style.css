@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(rgb(255, 218, 185), rgb(255, 182, 193));
+  background: linear-gradient(rgb(255, 192, 203), rgb(255, 182, 193));
 }
 
 #noButton, #yesButton, #fixDateButton {
@@ -27,14 +27,14 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #800000; /* Dark Red */
+  color: #ff69b4; /* Deep Pink */
 }
 
 .text {
   font-family: "Cursive", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  color: #800000; /* Dark Red */
+  color: #ff69b4; /* Deep Pink */
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -77,12 +77,12 @@ body {
 }
 
 p {
-  color: #800000; /* Dark Red */
+  color: #ff69b4; /* Deep Pink */
   margin-left: 50%;
 }
 
 p a {
-  color: #800000; /* Dark Red */
+  color: #ff69b4; /* Deep Pink */
   font-size: 20px;
   font-weight: 600;
   opacity: 0.25;
