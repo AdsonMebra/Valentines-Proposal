@@ -5,18 +5,21 @@ body {
   height: 100vh;
   background: linear-gradient(rgb(255, 191, 219), rgb(214, 88, 166));
   font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
 }
 
 #noButton {
   position: absolute;
-  margin-left: 150px;
   transition: 0.5s;
   margin-top: 30px;
 }
 
 #yesButton {
   position: absolute;
-  margin-right: 150px;
   margin-top: 30px;
 }
 
@@ -25,23 +28,13 @@ body {
 }
 
 .header_text {
-  font-family: "Great Vibes", cursive;
+  font-family: "Parisienne", cursive;
   font-size: 50px;
   font-weight: normal;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #ffffff;
-}
-
-.text {
-  font-family: "Nunito";
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
 .buttons {
@@ -54,19 +47,31 @@ body {
 }
 
 .btn {
-  background-color: #017cff;
-  color: white;
-  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
   padding: 15px 32px;
   text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   border: none;
   border-radius: 12px;
   transition: background-color 0.3s ease;
   box-shadow: 0 3px 3px black;
+}
+
+.yes {
+  background-color: #4caf50;
+  color: white;
+  margin-right: 10px;
+}
+
+.no {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.date {
+  background-color: #ff4d6b;
+  color: white;
 }
 
 .btn:hover {
@@ -78,16 +83,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  color: white;
-  margin-left: 50%;
-}
-
-p a {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 600;
-  opacity: 0.25;
 }
