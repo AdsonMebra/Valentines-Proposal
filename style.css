@@ -27,14 +27,18 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #df0000; /* Deep Pink */
+  -webkit-text-stroke-width: 2px;   
+  -webkit-text-stroke-color: white;   
+  color: #df00d4; /* Deep Pink */
 }
 
 .text {
   font-family: "Cursive", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  color: #df0000; /* Deep Pink */
+  -webkit-text-stroke-width: 2px;   
+  -webkit-text-stroke-color: white;   
+  color: #df00d4; /* Deep Pink */
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0px;
