@@ -18,7 +18,7 @@ body {
   height: 100vh;
   min-width: 900px;
   min-height: 700px;
-  background: linear-gradient(rgb(225, 85, 197), rgb(146, 4, 122));
+  background: linear-gradient(rgb(241, 115, 216), rgb(218, 43, 189));
   position: relative;
 }
 #botao1 {
@@ -69,7 +69,7 @@ body {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-2px) scalex(-1) translatex(100%);
-  background: #9bc8d6;
+  background: #d961cf;
 }
 
 .left-side:nth-child(2) {
