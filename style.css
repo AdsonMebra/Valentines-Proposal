@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(rgb(255, 192, 203), rgb(255, 182, 193));
+  background: linear-gradient(rgb(238, 111, 213), rgb(255, 182, 193));
 }
 
 #noButton, #yesButton, #fixDateButton {
