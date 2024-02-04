@@ -27,7 +27,7 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  -webkit-text-stroke-width: 0.2px;   
+  -webkit-text-stroke-width: 0.05px;   
   -webkit-text-stroke-color: white;   
   color: #df00d4; /* Deep Pink */
 }
@@ -36,7 +36,7 @@ body {
   font-family: "Cursive", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  -webkit-text-stroke-width: 0.2px;   
+  -webkit-text-stroke-width: 0.05px;   
   -webkit-text-stroke-color: white;   
   color: #df00d4; /* Deep Pink */
   text-align: center;
